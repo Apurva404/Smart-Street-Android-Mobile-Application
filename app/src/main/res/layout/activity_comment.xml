@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="20dp"
+    android:background="@color/blue"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text ="Enter your comment here:"/>
+        <EditText
+            android:id="@+id/userCommentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="start"
+            android:background="@color/white"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:hint="@string/type_here_hint" />
+    <Button
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text= "@string/btn_submit_comment"
+        android:onClick="saveComment"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Street</string>
+    <string name="type_here_hint">Type comment here...</string>
+    <string name="btn_submit_comment">Submit</string>
+    <string name="save_comment_success_msg">Comment saved successfully.</string>
+    <string name="save_comment_failure_msg">Failed to save comment.</string>
+    <string name="title_activity_nearby">Map</string>
+    <string name="share_button_text">Share</string>
+</resources>
